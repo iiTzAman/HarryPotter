@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81260AD32BE9072000443A83 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81260AD22BE9072000443A83 /* Store.swift */; };
+		813BA7242BEADFC9005E10B0 /* HP Store.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 81260AD12BE9069600443A83 /* HP Store.storekit */; };
+		813BA7262BEAE30D005E10B0 /* trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = 813BA7252BEAE30D005E10B0 /* trivia.json */; };
+		813BA7282BEB0926005E10B0 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BA7272BEB0926005E10B0 /* QuestionModel.swift */; };
+		813BA72A2BEB254A005E10B0 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BA7292BEB254A005E10B0 /* GameViewModel.swift */; };
 		8166C7662BDEAA4B00A85889 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166C7652BDEAA4B00A85889 /* Constants.swift */; };
+		8166C7682BDFD79B00A85889 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166C7672BDFD79B00A85889 /* InfoView.swift */; };
+		8166C76A2BDFE2E400A85889 /* paper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8166C7692BDFE2E400A85889 /* paper.mp3 */; };
+		8166C76C2BDFE7DD00A85889 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166C76B2BDFE7DD00A85889 /* SettingsView.swift */; };
+		8166C76E2BE4597100A85889 /* GameScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166C76D2BE4597100A85889 /* GameScreenView.swift */; };
 		818055362BD571F400BA2BB3 /* HarryPotterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818055352BD571F400BA2BB3 /* HarryPotterApp.swift */; };
 		818055382BD571F400BA2BB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818055372BD571F400BA2BB3 /* ContentView.swift */; };
 		8180553A2BD571F600BA2BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818055392BD571F600BA2BB3 /* Assets.xcassets */; };
@@ -23,7 +32,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81260AD12BE9069600443A83 /* HP Store.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "HP Store.storekit"; sourceTree = "<group>"; };
+		81260AD22BE9072000443A83 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		813BA7252BEAE30D005E10B0 /* trivia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trivia.json; sourceTree = "<group>"; };
+		813BA7272BEB0926005E10B0 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		813BA7292BEB254A005E10B0 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		8166C7652BDEAA4B00A85889 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8166C7672BDFD79B00A85889 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		8166C7692BDFE2E400A85889 /* paper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paper.mp3; sourceTree = "<group>"; };
+		8166C76B2BDFE7DD00A85889 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8166C76D2BE4597100A85889 /* GameScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenView.swift; sourceTree = "<group>"; };
 		818055322BD571F400BA2BB3 /* HarryPotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818055352BD571F400BA2BB3 /* HarryPotterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterApp.swift; sourceTree = "<group>"; };
 		818055372BD571F400BA2BB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,9 +68,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81260AD02BE9067D00443A83 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				81260AD12BE9069600443A83 /* HP Store.storekit */,
+				81260AD22BE9072000443A83 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		8166C7612BDE98FB00A85889 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				813BA7292BEB254A005E10B0 /* GameViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -62,6 +90,9 @@
 			children = (
 				818055352BD571F400BA2BB3 /* HarryPotterApp.swift */,
 				818055372BD571F400BA2BB3 /* ContentView.swift */,
+				8166C7672BDFD79B00A85889 /* InfoView.swift */,
+				8166C76B2BDFE7DD00A85889 /* SettingsView.swift */,
+				8166C76D2BE4597100A85889 /* GameScreenView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -69,6 +100,8 @@
 		8166C7632BDE990600A85889 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				813BA7252BEAE30D005E10B0 /* trivia.json */,
+				813BA7272BEB0926005E10B0 /* QuestionModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +137,7 @@
 				8166C7622BDE990200A85889 /* View */,
 				8166C7612BDE98FB00A85889 /* ViewModel */,
 				8166C7642BDE990E00A85889 /* Extensions */,
+				81260AD02BE9067D00443A83 /* Store */,
 				8180554B2BD5720C00BA2BB3 /* Audio */,
 				818055392BD571F600BA2BB3 /* Assets.xcassets */,
 				8180553B2BD571F600BA2BB3 /* Preview Content */,
@@ -122,6 +156,7 @@
 		8180554B2BD5720C00BA2BB3 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				8166C7692BDFE2E400A85889 /* paper.mp3 */,
 				818055432BD5720C00BA2BB3 /* deep-in-the-dell.mp3 */,
 				818055442BD5720C00BA2BB3 /* hiding-place-in-the-forest.mp3 */,
 				818055452BD5720C00BA2BB3 /* let-the-mystery-unfold.mp3 */,
@@ -193,7 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				818055522BD5720C00BA2BB3 /* page-flip.mp3 in Resources */,
+				813BA7242BEADFC9005E10B0 /* HP Store.storekit in Resources */,
 				8180554C2BD5720C00BA2BB3 /* deep-in-the-dell.mp3 in Resources */,
+				813BA7262BEAE30D005E10B0 /* trivia.json in Resources */,
+				8166C76A2BDFE2E400A85889 /* paper.mp3 in Resources */,
 				818055502BD5720C00BA2BB3 /* magic-wand.mp3 in Resources */,
 				8180553D2BD571F600BA2BB3 /* Preview Assets.xcassets in Resources */,
 				8180554F2BD5720C00BA2BB3 /* magic-in-the-air.mp3 in Resources */,
@@ -212,9 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813BA72A2BEB254A005E10B0 /* GameViewModel.swift in Sources */,
+				81260AD32BE9072000443A83 /* Store.swift in Sources */,
+				8166C76C2BDFE7DD00A85889 /* SettingsView.swift in Sources */,
+				8166C7682BDFD79B00A85889 /* InfoView.swift in Sources */,
+				8166C76E2BE4597100A85889 /* GameScreenView.swift in Sources */,
 				818055382BD571F400BA2BB3 /* ContentView.swift in Sources */,
 				818055362BD571F400BA2BB3 /* HarryPotterApp.swift in Sources */,
 				8166C7662BDEAA4B00A85889 /* Constants.swift in Sources */,
+				813BA7282BEB0926005E10B0 /* QuestionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
